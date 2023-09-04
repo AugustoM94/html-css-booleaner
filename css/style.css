@@ -18,10 +18,12 @@ main {
     margin-top: 20px;
     width: 50%;
     font-weight: bold;
+font-size: 15px;
 }
 
 #data {
     font-size: 10px;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -31,40 +33,39 @@ h1 {
 
 img {
 
-      width: 350px;
-      height: 300px;
+      width: 450px;
+      height: 400px;
       padding-top: 10px;
 }
 
 .yellowbacktext {
-    background-color: yellow;
+    background-color:rgb(255, 255, 0);
 }
 th {
     color: rgb(255,255,255);
-    background-color: darkblue;
+    background-color: rgb(24, 159, 255);
     font-size: 15px;
 }
 
 .smallcolumn {
-
-width: 200px;
-text-align: center;
+  width: 200px;
 }
 .largecolumn {
     width: 400px;
-    text-align: center;
 }
 
 .color-row {
     background-color: lightblue;
 }
 
-figcaption {
+.caption {
     font-size: 12px;
+    color:darkgrey;
 }
 
 table {
-    margin top: 10px;
+    padding-top: 20px;
+    width: 100%;
 }
 
 footer {
@@ -75,4 +76,11 @@ footer {
 
 h3 {
     color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 20px;
 }
